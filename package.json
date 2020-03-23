@@ -1,0 +1,26 @@
+{
+  "name": "gulp-scss-js-project-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buildCss": "gulp buildCss",
+    "watchCss": "gulp watchCss",
+    "buildJs": "gulp buildJs",
+    "watchJs": "gulp watchJs"
+  },
+  "keywords": [],
+  "author": "darcey@aftc.io",
+  "license": "ISC",
+  "dependencies": {
+    "aftc.js": "^1.7.1",
+    "gsap": "^3.2.6"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.2.0"
+  }
+}
